@@ -1,0 +1,72 @@
+<! DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>NBA BASKETBALL</title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="header">
+		<nav>
+           <a href="index.html"><img src="images/nba.png"></a>
+		   <div class="nav-links" id="navLinks">
+			<div class="nav-fa">
+			<i class="fa fa-window-close" onclick="hideMenu()"></i>
+			</div>
+			
+            <ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="home.html">NBA PICTURES</a></li>
+				<li><a href="team.html">TEAM</a></li>
+				<li><a href="player.html">PLAYER</a></li>
+
+                <div class="land-btn">
+				<li><a href="">ABOUT</a></li>
+            </ul>
+                </div>
+
+                <div class="nav-fa">
+                    <i class="fa fa-bars" onclick="showMenu()"></i>
+                    </div>
+               
+		</nav>
+        
+        <div class="home">
+            <h1>About NBA</h1>
+            </div>
+
+        <div class="about">
+            <nav>
+                
+                <p>The National Basketball Association, or NBA, is a professional basketball league comprised of 30 teams across North America featuring the best basketball players in the world.
+                THE GAME Rules and Regulations. <br> Find the complete official rules of the National Basketball Association on nba.com.  GuidelinesIncludes policies dealing with the deployment 
+                of security personnel, alcohol sales and a new Fan Code of Conduct.The 2022-23 NBA season begins on Tuesday, Oct. 18 and features 82 games for each team. Here is a look at how each team opponents have been assigned
+                Each team will play three or four games against each opponent in its conference (56 total games per team).  Within each teams division, each team will play teams within their division four times, twice at home and 
+                twice on the road. They will play teams in the opposing conference twice a year, once at home and once on the road for a total of 30 games.
+    
+            </p>
+            </nav
+    
+        </div>
+</section>
+
+<script>
+	
+	var navLinks = document.getElementById("navLinks");
+
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+
+
+</script>
+
+	
+</body>
+</html>	

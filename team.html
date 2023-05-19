@@ -1,0 +1,100 @@
+<! DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>NBA BASKETBALL</title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="header">
+		<nav>
+           <a href="index.html"><img src="images/nba.png"></a>
+		   <div class="nav-links" id="navLinks">
+			<div class="nav-fa">
+			<i class="fa fa-window-close" onclick="hideMenu()"></i>
+			</div>
+			
+               <ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="home.html">NBA PICTURES</a></li>
+
+
+                <div class="land-btn">
+				<li><a href="">TEAM</a></li>
+                </div>
+
+
+				<li><a href="player.html">PLAYER</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+			   </ul> 
+		   </div>
+
+           <div class="nav-fa">
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            </div>
+
+		</nav>
+
+        <div>
+            <section class="team">
+                <nav>
+                    <a href="index.html"><img src="images/Lakers.jpg"></a>
+                    <h1>Los Angeles Lakers</h1>
+                    <p>The team moved to Minneapolis, Minnesota, in 1947, and its name was changed to the Lakers to reflect the Minnesota state nickname,Land of 10,000 Lakes.
+                        That same year the Lakers acquired George Mikan, who became professional basketball's first dominant big man and the first in a series of great Laker centres.</p>
+                </nav>
+                <nav>
+                    <a href="index.html"><img src="images/Nets.jpg"></a>
+                    <h1>Brooklyn Nets</h1>
+                    <p>The name "nets" was used because it rhymes with the names of two other professional sports teams that played in the New York metropolitan area at the time</p>
+                 </nav>
+                 <nav>
+                    <a href="index.html"><img src="images/Gsw.jpg"></a>
+                    <h1>Golden State Warriors</h1>
+                    <p>The franchise adopted its brand name Golden State Warriors prior to the 1971,72 season, to suggest that the team represented the entire state of California</p>
+                </nav>
+                 
+                 <nav>
+                    <a href="index.html"><img src="images/Bucks .png"></a>
+                    <h1>Milwaukee Bucks</h1> 
+                    <p>Records show that R.D. Trebilcox of Whitefish Bay, Wis., was one of 45 people who suggested the name bucks 
+                        He saw bucks (male deer) as being spirited, good jumpers, fast and agile.</p>
+                 </nav>
+                 <nav>
+                    <a href="index.html"><img src="images/Denver.png"></a>
+                    <h1>Denver Nuggets</h1>
+                    <p>Denver decided to go with a name-the-team contest to come up with a new nickname, and the winner was Nuggets to reflect the region's gold rush era of the mid-1800s 
+                        inspired by the gold and silver nuggets that were uncovered at the time.</p>
+                 </nav>
+                 <nav>
+                    <a href="index.html"><img src="images/Boston.jpg"></a>
+                    <h1>Boston Celtics</h1>
+                    <p>According to the Boston Celtic's official web site, the name came about in 1946 when owner Walter Brown started the team. He and his public relations guy, Howie McHugh, 
+                        were throwing out potential nicknames, including the Whirlwinds, Unicorns and Olympics.</p>
+                 </nav>
+        </section>
+        
+        </div>
+	
+</section>
+
+<script>
+	
+	var navLinks = document.getElementById("navLinks");
+
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+
+
+</script>
+
+	
+</body>
+</html>	

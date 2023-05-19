@@ -1,0 +1,67 @@
+<! DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>NBA BASKETBALL</title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section class="header">
+		<nav>
+           <a href="index.html"><img src="images/nba.png"></a>
+		   <div class="nav-links" id="navLinks">
+			<div class="nav-fa">
+			<i class="fa fa-window-close" onclick="hideMenu()"></i>
+			</div>
+			
+               <ul>
+
+				<div class="land-btn">
+				<li><a href="">HOME</a></li>
+				</div>
+
+				<li><a href="home.html">NBA PICTURES</a></li>
+				<li><a href="team.html">TEAM</a></li>
+				<li><a href="player.html">PLAYER</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+			   </ul> 
+		   </div>
+
+		   <div class="nav-fa">
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            </div>
+		  
+		</nav>
+	<div class="text-box">
+		<h1>National Basketball Association<h1>
+		<p>This season, TNT has the Eastern Conference Finals and ESPN/ABC the Western Conference Finals.
+        </p>
+		<a href=""class="hero-btn">All Right Reserved</a>
+	</div>
+</section>
+
+
+		
+		</div>
+
+	</section>
+
+	<script>
+	
+		var navLinks = document.getElementById("navLinks");
+	
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+	
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+	
+	
+	</script>
+	
+</body>
+</html>	
